@@ -73,10 +73,10 @@ export class NegociacaoController {
     public lastElement():number {
 
         const element = this.negociacoes.ultimo(this.negociacoes)
-
+        alert('oi')
         return element.id
 
-        alert('oi')
+        
 
     }
 

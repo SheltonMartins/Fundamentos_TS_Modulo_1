@@ -9,6 +9,10 @@ export class Negociacao {
         public readonly valor: number
     ) { }
 
+    /* Fabricio, aqui eu estou criando um ID "artificial" pra conseguir passar para o DOM 
+    atraves de view.ts.
+    Meu objetivo é apagar uma negociacao atraves do id criado.
+    */
     get id(): number {
 
         const id = new NegociacaoController().lastElement()

@@ -68,7 +68,8 @@ export class NegociacaoController {
     }
 
 
-
+    /* Fabricio, nessa parte eu passo executo o metodo ultimo e retorno o id -
+    veja o arquivo negociacao.ts*/
     public lastElement():number {
 
         const element = this.negociacoes.ultimo(this.negociacoes)

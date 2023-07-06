@@ -11,7 +11,8 @@ export class Negociacoes {
         return this.negociacoes;
     }
 
-
+    /* Fabricio, nessa parte estou pegando o ultimo elemento do array Negociacoes 
+    - veja em negociacoes-controller*/
     public ultimo(arrayNegociacao: Negociacoes): Negociacao {
         return this.negociacoes[this.negociacoes.length - 1]
     }

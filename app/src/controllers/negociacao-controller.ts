@@ -76,6 +76,8 @@ export class NegociacaoController {
 
         return element.id
 
+        alert('oi')
+
     }
 
 

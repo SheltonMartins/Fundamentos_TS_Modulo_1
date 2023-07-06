@@ -3,7 +3,7 @@ import { NegociacaoController } from "../controllers/negociacao-controller.js";
 export class Negociacao {
 
     constructor(
-        //public readonly _id: number,
+        
         private _data: Date,
         public readonly quantidade: number,
         public readonly valor: number
@@ -19,6 +19,8 @@ export class Negociacao {
 
         return id + 1
     }
+
+  
 
     get volume(): number {
         return this.quantidade * this.valor;

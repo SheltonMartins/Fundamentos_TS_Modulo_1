@@ -27,7 +27,7 @@ export class NegociacoesView extends View<Negociacoes> {
                                 ${negociacao.valor}
                             </td>
                             <td>
-                                <button id="${negociacao.id}" class="btn btn-danger">Desfazer</button>
+                                <button class="btn btn-danger">Desfazer</button>
                             </td>
                         </tr>
                     `;

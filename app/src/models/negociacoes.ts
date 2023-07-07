@@ -16,4 +16,11 @@ export class Negociacoes {
     public ultimo(arrayNegociacao: Negociacoes): Negociacao {
         return this.negociacoes[this.negociacoes.length - 1]
     }
+
+
+    public paraTexto():string{
+
+        return JSON.stringify(this.negociacoes, null, 2)
+
+    }
 }
